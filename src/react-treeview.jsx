@@ -156,10 +156,10 @@ var TreeView = (function(_React$PureComponent) {
 				var nodeLabel = _props2.nodeLabel;
 				var children = _props2.children;
 				var defaultCollapsed = _props2.defaultCollapsed;
-        // **** customized for Evinced needs *****//
+				// **** customized for Evinced needs *****//
 				var onParentClick = _props2.onParentClick;
 				var parentId = _props2.parentId;
-        // **** customized for Evinced needs *****//
+				// **** customized for Evinced needs *****//
 
 				var rest = _objectWithoutProperties(_props2, [
 					'collapsed',
@@ -170,10 +170,10 @@ var TreeView = (function(_React$PureComponent) {
 					'nodeLabel',
 					'children',
 					'defaultCollapsed',
-          // **** customized for Evinced needs *****//
+					// **** customized for Evinced needs *****//
 					'onParentClick',
 					'parentId'
-           // **** customized for Evinced needs *****//
+					// **** customized for Evinced needs *****//
 				]);
 
 				var arrowClassName = 'tree-view_arrow';
