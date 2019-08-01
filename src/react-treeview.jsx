@@ -191,13 +191,6 @@ var TreeView = (function(_React$PureComponent) {
 					})
 				);
 
-				const vertivalLine = _react2['default'].createElement(
-					'span',
-					_extends({}, rest, {
-						className: 'ev-tree-vert-line'
-					})
-				);
-
 				return _react2['default'].createElement(
 					'div',
 					{ className: 'tree-view ' + treeViewClassName },
@@ -205,8 +198,7 @@ var TreeView = (function(_React$PureComponent) {
 						'div',
 						{ className: 'tree-view_item ' + itemClassName, onClick: onParentClick, id: parentId },
 						arrow,
-						nodeLabel,
-						vertivalLine
+						nodeLabel
 					),
 					_react2['default'].createElement(
 						'div',

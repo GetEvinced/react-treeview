@@ -224,11 +224,7 @@ return /******/ (function(modules) { // webpackBootstrap
 					onClick: this.handleClick
 				}));
 	
-				var vertivalLine = _react2['default'].createElement('span', _extends({}, rest, {
-					className: 'ev-tree-vert-line'
-				}));
-	
-				return _react2['default'].createElement('div', { className: 'tree-view ' + treeViewClassName }, _react2['default'].createElement('div', { className: 'tree-view_item ' + itemClassName, onClick: onParentClick, id: parentId }, arrow, nodeLabel, vertivalLine), _react2['default'].createElement('div', { className: containerClassName + ' ' + childrenClassName }, collapsed ? null : children));
+				return _react2['default'].createElement('div', { className: 'tree-view ' + treeViewClassName }, _react2['default'].createElement('div', { className: 'tree-view_item ' + itemClassName, onClick: onParentClick, id: parentId }, arrow, nodeLabel), _react2['default'].createElement('div', { className: containerClassName + ' ' + childrenClassName }, collapsed ? null : children));
 			}
 		}]);
 	
