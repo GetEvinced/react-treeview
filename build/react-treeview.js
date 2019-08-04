@@ -224,7 +224,9 @@ return /******/ (function(modules) { // webpackBootstrap
 					onClick: this.handleClick
 				}));
 	
-				return _react2['default'].createElement('div', { className: 'tree-view ' + treeViewClassName }, _react2['default'].createElement('div', { className: 'tree-view_item ' + itemClassName, onClick: onParentClick, id: parentId }, arrow, nodeLabel), _react2['default'].createElement('div', { className: containerClassName + ' ' + childrenClassName }, collapsed ? null : children));
+				return _react2['default'].createElement('div', { className: 'tree-view ' + treeViewClassName }, _react2['default'].createElement('div', { className: 'tree-view_item ' + itemClassName, onClick: onParentClick, id: parentId },
+				// arrow,
+				nodeLabel), _react2['default'].createElement('div', { className: containerClassName + ' ' + childrenClassName }, collapsed ? null : children));
 			}
 		}]);
 	

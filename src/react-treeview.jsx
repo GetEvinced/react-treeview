@@ -197,7 +197,7 @@ var TreeView = (function(_React$PureComponent) {
 					_react2['default'].createElement(
 						'div',
 						{ className: 'tree-view_item ' + itemClassName, onClick: onParentClick, id: parentId },
-						arrow,
+						// arrow,
 						nodeLabel
 					),
 					_react2['default'].createElement(
