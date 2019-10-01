@@ -4,7 +4,7 @@
 	"description": "Easy, light, flexible tree view made with React.",
 	"main": "build/react-treeview.js",
 	"files": [
-	    "build"
+	    "build", "react-treeview.css"
  	 ],
 	"directories": {
 		"demos": "demos"
